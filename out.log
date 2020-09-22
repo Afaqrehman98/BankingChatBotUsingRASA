@@ -1,0 +1,10 @@
+2020-05-14 06:47:40,812 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-05-14 07:21:30,768 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "c:\python\lib\site-packages\sanic\app.py", line 976, in handle_request
+    response = await response
+  File "c:\python\lib\site-packages\rasa\core\channels\channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "c:\python\lib\site-packages\rasa\core\channels\channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'

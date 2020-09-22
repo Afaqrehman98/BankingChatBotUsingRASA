@@ -1,0 +1,949 @@
+intents:
+
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_greet
+  - mood_unhappy
+  - account_opening
+  - account_charges
+  - abusive_words
+  - types_of_account
+  - minimum_balance
+  - benefits_of_account_opening
+  - documents_for_account
+  - account_eligibility
+  - services_available
+  - account_interest
+  - fund_transfer
+  - benefits_saving_account
+  - unlimited_online_and_mobile_transactions
+  - debit_card_charges
+  - cheque_book_charges
+  - difference_saving_and_current_account
+  - benefits_business_account
+  - minimum_asaan_account_balance
+  - benefits_asaan_account
+  - Allied_Easy_Current_Account
+  - minimum_easy_current_account_balance
+  - benefits_easy_current_account
+  - Current_Account
+  - minimum_current_account_balance
+  - benefits_current_account
+  - Allied_Saving_Account
+  - minimum_saving_account_balance
+  - asaan_account
+  - minimum_business_account_balance
+  - card_loss
+  - Debit_card
+  - Debit_card_types
+  - Debit_card_guideline
+  - Debit_card_eligibility
+  - Debit_Card_terms_&_conditions
+  - kind_of_transactions_Debit_Card
+  - Credit_Card
+  - Credit_Card_types
+  - Difference_between_Debit_and_Credit_Card
+  - Allied_Basic_Debit_Card
+  - signature_eligible
+  - Refund
+  - Debit_Card_features_&_benefits
+  - activate_my_Allied_Basic_Debit_Card
+  - Allied_Visa_Premium_Debit_Card
+  - Allied_Visa_Premium_Debit_Card_terms_&_conditions
+  - Allied_Visa_Premium_Debit_Card_benefits
+  - Allied_Visa_Credit_Card
+  - Allied_Visa_Credit_Card_features
+  - Visa_Platinum_Credit_Card_Offer
+  - Visa_Platinum_Credit_Card_Offer_terms_&_conditions
+  - Allied_UPI_&_PayPak_Debit_Card
+  - Chip_enabled_Co-Badged_Debit_Card
+  - Allied_UPI_&PayPak_Debit_Card_features_&_benefits
+  - Debit_Card_transaction_limit
+  - kind_of_transactions_of_Allied_UPI_PayPak_Debit_Card
+  - Fraudulent_Card_Misuse_Protection
+  - Allied_Visa_Premium_Debit_Card_eligibility_criteria
+  - deactivate_my_Visa_Debit_Card
+  - Reactivate_my_Visa_Debit_Card
+  - OTP_valid_time
+  - Receive_OTP_for_all_online_shopping_transactions
+  - if_I_do_not_receive_OTP
+  - Successful_completion_of_transaction_notification
+  - charged_for_online_shopping
+  - Maximum_amount_spend_in_a_day_via_debit_card
+  - requirement_to_conduct_an_online_transaction
+  - Validity_and_Activation
+  - Cancellation_of_Transactions
+  - Charges_card
+  - Account_form
+  - salam
+  - types_cards
+  - Credit_Card_Charges
+  - Allied_Business_Account
+  - difference_Allied_Asaan_and_Easy_Current_account
+  - joint_account
+  - How_are_you
+  - Personal_loan_criteria
+  - details_Personal_loan
+  - loan_policies
+  - documents_for_personal_loan
+  - condition_loan_approved
+  - Apply_for_personal_loan
+  - extension_of_loan_tenure
+  - Hidden_cost
+  - repay_loan
+  - Applicable_interest_rate
+  - Personal_loan_installment
+  - Car_loan_Apply
+  - Car_loan_Benefits
+  - loan_possibility
+  - Car_loan_requirements
+  - installment_Car_Loan
+  - mini_balance_repayment
+  - partial_Car_Loan
+  - inquire_status_repayment_account
+  - Car_loan_businessman_requirements
+  - apply_Allied_Home_Loan
+  - non_resident_Pakistanis
+  - markup_rate_Allied_Home_Loan
+  - value_property_assessed
+  - title_property_checked
+  - repaid_before_maturity_date
+  - Allied_Salary_Loan
+  - Allied_Salary_Loan_benefits
+  - eligible_Allied_Salary_Loan
+  - documents_required_Allied_Salary_Loan
+  - Phone_Banking
+  - Apply_for_card
+  - Atm
+  - Islamic_banking
+  - Atm_Locator
+  - Branch_Locator
+  - Secure_card_payment
+  - credit_card_limit
+  - card_validity
+  - PersonalLoan_Terms_&_Conditions
+  - PersonalLoan_Features
+  - car_loan_details
+  - Car_Loan_Features
+  - Car_loan_criteria
+  - home_loan_details
+  - home_loan_criteria
+  - home_loan_requirement
+  - Thank_you
+
+
+
+
+responses:
+
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_salam:
+    - text: "Walaikum Salam"
+
+
+  utter_account_charges:
+     - text: "100 rupees are required to open your account.!"
+
+  utter_abusive_words:
+     - text: "Kindly don't use abusive language, Ask me relevant questions"
+
+  utter_account_opening:
+     - text: "Okay I will help you, which type of account do you want to open?"
+
+  utter_types_of_account:
+     - text: "There are five types of accounts
+     1- Current Account
+     2- easy Current Account
+     3- asaan Current Account
+     4- business account
+     5- Saving Account"
+
+  utter_minimum_balance:
+     - text: "Minimum Balance must be 100 RS."
+
+  utter_benefits_of_account_opening:
+     - text: "You can receive following benefits of opening account:
+     1.Free Cheque Book
+     2.Free Debit Card"
+
+  utter_documents_for_account:
+     - text: "the depositor desiring to open any type of account in the bank shall submit in the prescribed form an application for opening an account with an initial deposit.The depositor shall provide the required information correctly and submit the required form.The document you need for saving account a CNIC and utility bills of one month and if you are opening current account you also need letter head of your company "
+
+  utter_account_eligibility:
+    - text: "eligibility criteria
+
+      Individuals with valid CNIC numbers
+      Residents of Pakistan"
+
+  utter_services_available:
+     - text: "Yes,Online service is available for 24/7 and bank timing is 9:00am to 5:30pm"
+
+  utter_account_interest:
+     - text: "yes,saving account gives you profit of 0.25%"
+
+  utter_fund_transfer:
+     - text: "same bank fund transfer charges is free and pay order charges is 300rs"
+
+  utter_benefits_saving_account:
+     - text: "saving account gives you profits monthly"
+
+  utter_unlimited_online_and_mobile_transactions:
+     - text: "Yes have unlimited online and mobile transactions are free"
+
+  utter_debit_card_charges:
+     - text: "these are the charges of visa debit card 1100rs yearly, gold debit card 2500rs yearly and world debit card 6000rs yearly"
+
+  utter_cheque_book_charges:
+     - text: "No,cheque book is free"
+
+  utter_difference_saving_and_current_account:
+     - text: "Saving bank account is an account meant for individuals who like to save for meeting their future financial requirements and
+       Current account refers to a running account, in which there is no limit on the operation, during a working day"
+
+  utter_cheer_up:
+     - text: "Here is something to cheer you up:"
+       image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+     - text: "Did that help you?"
+
+  utter_happy:
+     - text: "Great, carry on!"
+
+  utter_goodbye:
+     - text: "Bye"
+
+  session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
+
+
+
+  utter_benefits_business_account:
+    - text: "no balance requirement
+            - free online cash deposit
+            - free online cash withdrawal
+            - free online account to account transfer
+            - free online clearing collection by remote branch
+            - free check instrument deposit for clearing  collection by remote branch
+            - free issuance of demand drafts/ allied banker cheque ( payable at any branch) / pay order/ Allied banker cheque  (payable at issuing branch) call deposit receipt
+            - free cancellation of demand drafts / allied banker cheque ( payable at any branch) / pay order/ Allied banker cheque  (payable at issuing branch) call deposit receipt
+            - free Intercity clearing/ OBC
+            - free duplicate issuance of demand drafts / allied banker cheque ( payable at any branch) / pay order/ Allied banker cheque  (payable at issuing branch) call deposit receipt
+            - free of cost issuance of first cheque book of 10 leaves."
+
+
+
+  utter_minimum_asaan_account_balance:
+    - text: "Intial Balance is PKR 100,Average Balance have no requirement and maximum balance is PKR 500,000."
+
+
+  utter_benefits_asaan_account:
+    - text:  " ? Flexibility of opening Current or Savings Account
+               ? Easy account opening process only on provision of ID Document
+               ? No minimum balance requirement
+               ? No account maintenance/service charges
+               ? Allied PayPak Debit Card
+               ? FREE issuance of first Cheque Book of 10 leaves."
+
+  utter_Allied_Easy_Current_Account:
+    - text: "Allied Easy Current Account is a recently-launched current account tailored to meet banking needs of every individual, requiring No Service Charges on Minimum Balance Requirement."
+
+  utter_minimum_easy_current_account_balance:
+    - text: "Intial Balance is PKR 1,000,Average Balance have no requirement and maximum balance has no restriction."
+
+
+  utter_benefits_easy_current_account:
+    - text:  "• Free of cost issuance of first cheque book of 10 leaves
+              •	No Service charges on Minimum Balance Requirement
+              •	Issuance of Allied Cash+Shop Visa Debit Card
+              •	myABL Internet Banking access on Personal Computer and  Mobile"
+
+  utter_Current_Account:
+    - text: "This account is suitable for customers looking for a simple bank account for day to day transactions. With Allied Bank’s Current Account, you get all the usual advantages and features of a regular current account for all your daily transactions, frequent payments and flow of funds."
+
+  utter_minimum_current_account_balance:
+    - text: "Intial Balance is PKR 3,000,Average Balance is PKR 25,000 and maximum balance has no restriction."
+
+
+  utter_benefits_current_account:
+    - text:   "• Free of cost issuance of first cheque book of 10 leaves
+               • Free Online Cash Deposit and Withdrawal
+               • Free Online Clearing collection by Remote Branch
+               • Free Online Balance Enquiry
+               • Free Online Printing of Statement of account
+               • Free Manual Remittances for Account to Account transfer only & Issuance of DD/TT/PO/ABC/OBC/ Express Collection/Call Deposit Receipt by debit to the Account only from parent branch only
+               • No joining fee. Annual fee for the issuance of Allied Cash+Shop Visa Debit Card is to be recovered in advance
+               • Access to myABL Internet Banking on Personal Computer and Mobile
+               • Fees: Monthly Service Charges: Rs. 50/-only if monthly average balance falls below Rs. 25,000/-"
+
+  utter_Allied_Saving_Account:
+    - text: "Allied Islamic Saving account is based on Shari’ah compliant mode of ‘Mudaraba’.Allied Islamic Saving accounts will be operated like normal chequeing accounts on profit/loss sharing basis."
+
+  utter_minimum_saving_account_balance:
+    - text: "Intial Balance is PKR 1,000,Average Balance have no requirement and maximum balance has no restriction."
+
+  utter_asaan_account:
+    - text: "Opening a bank account is not an arduous task anymore. Allied asaan Account is convenient and accessible to individuals who want to open account. These individuals may belong to any walk of life and will experience finest banking services at Allied Bank.
+               Allied Asaan Account has been designed in a way to attract those segments of the community that are unprivileged and un-educated which may include freelancers, students, housewives, farmers, laborers, pensioners, etc. All it requires is a valid CNIC/ SNIC and deposit of Rs.100/- to open an Allied Asaan Account."
+
+
+  utter_minimum_business_account_balance:
+    - text: "Intial Balance is PKR 3,000,Average Balance is PKR 50,000 and maximum balance has no restriction."
+
+
+  utter_card_loss:
+    - text: " In case of loss, theft, damage, or if you suspect that your Card has been used fraudulently, immediately call Allied Phone Banking at 111-225-225 within Pakistan or +9221-35301094 from outside Pakistan."
+
+
+  utter_Debit_card:
+    - text: "Debit cards are issued with a bank account so the money spent or withdrawn, is automatically deducted from the account. It is a convenient alternate to cash, especially when it is directly used for shopping at merchant locations on their POS (Point of Sale) machines.
+             we have three kind of debit card
+              1. Allied Basic Debit Card
+              2. Allied Visa Premium Debit Card
+              3. Allied UPI & PayPak Debit Card"
+
+  utter_Debit_card_types:
+    - text: "We are offering
+             Allied Basic Debit Card
+             Allied Visa Premium Debit Card
+             Allied UPI & PayPak Debit Card"
+
+  utter_Debit_card_guideline:
+    - text: "Please follow the instructions stated below to avail the many benefits of the Card
+            •   Please sign the signature panel at the back of the card with permanent ink immediately after receipt of the card.
+            •	To activate your Card, please call Allied Phone Banking.
+            •	To generate your TPIN & ATM PIN, please call Allied Phone Banking.
+            •	Do not disclose your Card, Account Number or Personal Identification Number [PIN] to anyone.
+            •	Do not bend your card nor leave it near any electronic gadget which has a magnetic field.
+            •	Do not expose your card to direct sunlight.
+            •	Avoid scratching or damaging the magnetic strip. The strip is encoded and requires special care.
+            •	If your card is lost or stolen, contact your card issuer immediately. This reduces your liability if fraud losses occur."
+
+  utter_Debit_card_eligibility:
+    - text: "Illiterate customers having “photo account” or “shaky signature” account  with ABL are eligible to apply for Basic Debit Card on following types of accounts;
+           •	Individual Account (Single)
+           •	Joint Account with Operating Instructions “Singly/Anyone can operate/Either or Survivor”
+           •	Sole Proprietors
+           •	Basic Banking Account
+           •	Asaan Account
+           •	Regular Account (Current/Saving)
+           Please visit any nearest ABL branch to apply your Card and start enjoying benefits and services that come with it."
+
+
+
+
+
+  utter_Debit_Card_terms_&_conditions:
+    - text: "Account means the bank account held or to be held with the Bank in the name of the Cardholder (whether solely or jointly with another person), the number of which is or shall be specified in the application form for the Card and communicated to the Cardholder as appropriate.
+             •	“Bank” means Allied Bank Limited.
+             •	“Branch” means that branch of Allied Bank Limited, which holds the Cardholder’s Account.
+             •	“Card” means the Allied UPI/ PayPak co-badged Debit Card or Allied Basic Debit Card, including any replacement of the Card.
+             •	“Cardholder” means the person to whom Allied UPI/ PayPak co-badged Debit Card or Allied Basic Debit Card is issued and having power alone to operate the Account in accordance with the Bank mandate in respect thereof.
+             •	“PayPak” means domestic payment scheme owned and operated by 1LINK (Pvt.) Ltd duly approved by State Bank of Pakistan.
+             •	“UPI” means international payment scheme owned and operated by China Union Pay International.
+             •	“PIN” means the Personal Identification Number or an encrypted number, which the Cardholder uses from time to time with the Card and includes the Telephone Personal Identification Number or TPIN where the context so permits.
+             •	“Transaction” means any cash withdrawal or payment made using the Card/ Biometric or any refund arising in connection with the use of the Card/ Biometric in any authorised manner for debit or credit to the Account.
+             •	“Biometric” means access to the ATM using thumb impression.
+             •	“e-Commerce” is the transaction of making payments for online purchases. e-Commerce means electronic commerce and include both internet and mobile commerce."
+
+
+  utter_kind_of_transactions_Debit_Card:
+    - text: " The following transactions can be performed
+              - Cash withdrawal through ATM
+              - Utility bill payments/Donations
+              - Fund Transfers
+              - Balance Inquiry
+              - PIN Change
+              - Purchase through Point-of-Sale (POS) Terminal within Pakistan only."
+
+
+  utter_Credit_Card:
+    - text: "With Credit Card, you can spend more than you have, or leveraging the credit balance, you can reschedule your payments as per your convenience and typically get better rewards and better insurance protection. Credit cards allow spending while paying the money back later.
+             we have two kind of credit card
+             1.  Allied Visa Credit Card
+             2.  Visa Platinum Credit Card Offer"
+
+
+
+  utter_Credit_Card_types:
+    - text: " We are offering
+              - Allied Visa Credit Card
+              - Visa Platinum Credit Card Offer"
+
+
+  utter_Difference_between_Debit_and_Credit_Card:
+    - text: " A Debit Card gives you access to your money from your bank account while a Credit Card is a credit facility given by your bank."
+
+
+  utter_Allied_Basic_Debit_Card:
+    - text: "Allied Bank welcomes you to a world of convenience and security with UPI & PayPak Basic Debit Card. You can conduct ATM and retail/purchase transactions within Pakistan by using your basic debit card."
+
+  utter_signature_eligible:
+    - text: "No, only illiterate Customers having “photo account” or “shaky signature” account  with ABL are eligible to apply for Basic Debit Card."
+
+  utter_Refund:
+    - text: "If a retailer or supplier makes a refund by means of a Transaction, the Bank will credit the Account when it receives the retailer or supplier’s proper instructions and the funds in respect of such refund, provided that the Bank will not be responsible for any loss resulting from any delay in receiving such instructions and funds."
+
+  utter_Debit_Card_features_&_benefits:
+    - text: " Features and Benefits
+            Get Cash: When you are on the move, your bank account is too. You can use your Allied Basic Debit Card to withdraw cash directly from your bank account from over 13,000 ATMs in Pakistan – including Allied Bank’s 1,500+ ATMs.
+            Shop Anywhere: Use your Basic Debit Card to shop at over 50,000 retailers in Pakistan.
+            Dine Out: Go to all your favorite restaurants and place your order without having to worry about how much cash you have in your pocket – you can pay the bill with your Basic Debit Card.
+            Stay Alert: Enjoy FREE SMS alerts facility on your card transactions and feel secure by keeping better track of your spending."
+
+  utter_activate_my_Allied_Basic_Debit_Card:
+    - text: " Upon receiving your Card, please activate it instantly from any Allied Bank ATM using biometric option or by calling 111-225-225."
+
+  utter_Allied_Visa_Premium_Debit_Card:
+    - text: "Allied Bank presents the all new Allied Visa Premium Debit Card to match your affluent and discerning lifestyle. Allied Visa Premium Debit Card is designed to serve you with the premium banking experience, round the clock anywhere, anytime and with the peace of mind. You are empowered with the range of exclusive services offered with Allied Visa Premium Debit Card to compliment your lifestyle needs."
+
+  utter_Allied_Visa_Premium_Debit_Card_terms_&_conditions:
+    - text: " “Account” means the bank account held or to be held with the Bank in the name of the Cardholder (whether solely or jointly with another person), the number of which is or shall be specified in the application form for the Card and communicated to the Cardholder as appropriate.
+                   •	“Bank” means Allied Bank Limited.
+                   •	“Branch”means that branch of Allied Bank Limited, which holds the Cardholder’s Account.
+                   •	“Card” means the Allied Visa Debit Card, including any replacement of the Card.
+                   •	“Cardholder” means the person to whom Card is issued and having power alone to operate the Account in accordance with the Bank mandate in respect therefor.
+                   •	“PIN” means the Personal Identification Number or an encrypted number, which the Cardholder uses from time to time with the Card and includes the Telephone Personal Identification Number or TPIN where the context so permits.
+                   •	“OTP” means 6 digits one-time password which is sent to customer’s mobile number or email registered with allied bank at the time of online transactions.
+                   •	“Transaction” means any cash withdrawal or payment made using the Card/Biometric or any refund arising in connection with the use of the Card/Biometric in any authorised manner for debit or credit to the Account.
+                   •	“e-Commerce” is the transaction of making payments for online purchases. e-Commerce means electronic commerce and include both internet and mobile commerce.
+                   •	“VISA” means Visa International Service Association.
+                   •	“Biometric” means access to the ATM using thumb impression."
+
+  utter_Allied_Visa_Premium_Debit_Card_benefits:
+    - text: " Airport Lounge Access:
+                With access over 1,000 airport lounges in more than 300 cities all around the world, Allied Visa Premium Debit Card customers have rare privilege of travel. Use your Allied Visa Premium Debit Card and have relaxing, stress-free journeys. You have the privilege of 8 lounge visits in a calendar year. Download LoungeKey app or visit www.LoungeKey.com/visasignaturemena to search for participating lounges.
+                Enjoy complimentary CIP lounge access on international travel from Karachi, Lahore, Islamabad and Multan airports
+                Hotels:
+                Visa luxury hotel collection is composed of over 900 intriguing and prestigious properties. All properties, from boutique gems to world famous hotels, provide a premium collection of benefits specially designed to offer an unparalleled experience. Please book through www.visaluxuryhotels.com to avail these offers. For more information, visit www.visaluxuryhotels.com
+                Travel Insurance:
+                We have got you and your families covered. So, you can simply focus on enjoying every single moment of your travel experience. With multi-trip travel insurance, you and your family are covered on all trips up to 90 days in duration.
+                Dining Discounts:
+                Your Allied Visa Premium Debit Card also takes cares of your meals whether you are in Pakistan or travelling abroad with its exclusive discounts at 200+ locations. Please just download the app “DragonPass Dine & Travel” from Apple App Store or Google Play Store and use the app to look for the locations offering discounts.
+                Extended Card Limit Usage:
+                Enjoy per day limit of PKR 300,000 on ATM withdrawals and PKR 1 Million on POS purchases with your Allied Visa Premium Debit Card.
+                Extended Warranty:
+                Extended Warranty adds real value to the items purchased with Allied Visa Premium Debit Card. It doubles the repair period offered by the original manufacturer’s warranty for up to 1 year, so you always feel the benefit of extra protection.
+                Please visit https://Cardholderbenefitsonline.com/ for more details. "
+
+
+  utter_Allied_Visa_Credit_Card:
+    - text: " Welcome to the world of privileges, benefits and savings with your Allied Visa Credit Card. In order to cater to your growing financial needs we are proud to introduce chip-enabled contact less Allied Visa Credit Card with The Lowest Service Charge ever! So now you can save money where it counts and spend lavishly at your favorite places with greater flexibility, convenience and most important-Affordability!
+              With your Allied Visa Credit Card you can enjoy a variety of state-of-the-art features and unmatched value by spending at over 49,000 merchants across Pakistan and 27 million merchant outlets worldwide! And what more, you can also use your credit card at over 1 million ATMs internationally!"
+
+  utter_Allied_Visa_Credit_Card_features:
+    - text: "The Most Attractive Service Charge
+             - Your Allied Visa Credit Card helps you save money where it counts. Your Allied Visa Credit Card currently carries the most attractive Annual Percentage Rate in the market, i.e. 28%*. So use your Allied Visa Credit Card at your favorite places and enjoy savings like never before.
+             - Any change in APR will be intimated accordingly.
+             - Chip-enabled contactless Allied Visa Credit Card
+             - Allied Bank Limited is now issuing chip-enabled contact less Allied Visa Credit Card in order to further enhance and strengthen the security of credit card against fraud and provide more convenience of using the credit card in contactless environment. So now you can use your chip-enabled contactless Allied Visa Credit Card around the globe with more confidence and peace of mind.
+             - Salient Features
+             - Enhanced security features
+             - Convenience of contact less transactions
+             - No conversion fee
+             - No chip fee
+             - Lowest markup rate: only 2.33% per month for retail and cash advance and only 1.67% per month for BTF
+               In case of Gold Cards Annual fee waiver shall be applicable on spend of minimum PKR 25,000/- while in case of Platinum Cards Annual fee Waiver will be given on a spend of minimum PKR 50,000/- within a period of three (03) months."
+
+
+  utter_Visa_Platinum_Credit_Card_Offer:
+    - text: "Allied Bank Customers can now escape crowded departure halls and get complimentary, privileged and free access to selective Airport Lounges worldwide with Allied Visa Platinum Credit Card. Click here to download the List of Airport Lounges participating in this exclusive offer. Please note that this list is subject to change; for updated list of lounges, please visit: www.loungekey.com/visaplatinummena."
+
+  utter_Visa_Platinum_Credit_Card_Offer_terms_&_conditions:
+    - text: "Terms and Conditions:
+           1. Any visit to Airport lounge will be charged @ $ 30 per person.
+           2. Cardholders will need to mention “Lounge Key” to reception staff.
+           3. To find the updated list of the participating lounges, visit www.loungekey.com/visaplatinummena.
+           4. Complimentary airport lounge locations are subject to change."
+
+  utter_Allied_UPI_&_PayPak_Debit_Card:
+    - text: "Allied Bank welcomes you to a world of convenience and security with first ever Co-Badged UPI & PayPak Debit Card in Pakistan. Now you can not only conduct ATM and retail/purchase transactions within Pakistan but anywhere internationally as well. Co-badged Debit Card comes with two variants:
+          - Allied UPI PayPak co-badged Classic Debit Card – Regular Account
+          - Allied UPI PayPak co-badged Classic Debit Card – Asaan Account
+           Please visit any nearest ABL branch to procure your Card and start enjoying countless benefits and services that come with it."
+
+  utter_Chip_enabled_Co-Badged_Debit_Card:
+    - text: " We are always striving hard to provide state-of-the-art services to our customers. In line with this vision, we have introduced a globally acceptable “Chip-enabled Co-Badged Debit Card” to further mitigate the risk of card usage (card skimming etc.) on chip enabled ATMs and Retail Merchants."
+
+
+  utter_Allied_UPI_&PayPak_Debit_Card_features_&_benefits:
+    - text: "Get Cash: When you are on the move, your bank account is too. You can use your Allied UPI PayPak co-badged Debit Card to withdraw cash directly from your bank account from over 13,000 ATMs in Pakistan – including Allied Bank’s 1,500+ ATMs as well as over millions of ATMs worldwide where UPI sign is displayed.
+             Shop Anywhere: Use your co-badged Debit Card to shop at over 50,000 retailers in Pakistan and over millions of retailers internationally.
+             Shop Online: You can use your co-badged Debit Card to shop your favorite stuff online. Dial 111-225-225 through your registered number to activate your card for online shopping.
+             Dine Out: Go to all your favorite restaurants and place your order without having to worry about how much cash you have in your pocket – you can foot the bill with your co-badged Debit Card. Thanks to your Allied UPI PayPak co-badged  Debit Card, you can pay directly from your account.
+             Have Fun: Whether you feel like taking the family to see a movie at the cinema or treating some friends to a night of bowling, you can do it all and more with your co-badged Debit Card.
+             Stay Alert: Enjoy FREE SMS alerts facility on your card transactions and feel secure by keeping better track of your spending."
+
+  utter_Debit_Card_transaction_limit:
+    - text:  " Transaction Type	Allied UPI PayPak Debit Card – Asaan Accounts	Allied UPI PayPak Debit Card – Regular Accounts
+               Limits	Limits
+               ATM Cash Withdrawal	50,000 per day	100,000 per day
+               POS/ eCommerce	50,000 per day	100,000 per day
+               ATM Fund Transfer	250,000 per day	250,000 per day
+               ATM Bill Payment/ Donation	100,000 per month	100,000 per month
+               Notes:
+              •	Asaan Account Transaction Limit/ Turnover: Total debit per month: Rs. 500,000 max & Total credit balance limit: Rs. 500,000 max. Transactions beyond the specified limit is not permissible.
+              •	Limits for Allied UPI & PayPak Debit Card – Non-Resident Customer Account are same as Allied UPI & PayPak Debit Card – Regular Account with restriction of international usage"
+
+  utter_kind_of_transactions_of_Allied_UPI_PayPak_Debit_Card:
+    - text: "The following transactions can be performed:
+              •	Cash withdrawal through ATM – Local & International
+              •	Utility bill payments
+              •	Funds Transfer
+              •	Purchase through Point-of-Sale (POS) Terminal – Local & International
+              •	Online Shopping (e-commerce)"
+
+
+
+  utter_Fraudulent_Card_Misuse_Protection:
+    - text: "Your Allied Visa Premium Debit Card is protected against unauthorized transactions or fraudulent use by unrelated third parties. This covers unauthorized charges as a result of loss or theft.
+                  For more information please visit: https://Cardholderbenefitsonline.com/"
+
+  utter_Allied_Visa_Premium_Debit_Card_eligibility_criteria:
+    - text: "   Individuals, sole proprietors and joint account holders (either/survivor) fulfilling any of the following criteria.
+                  Minimum annual income of Rs. 2.5 million.
+                  At least Rs. 2 million deposit in Current, Savings, Term Deposit or equivalent amount in Foreign Currency Account.
+                  At least Rs. 2 million investment in Allied Bank’s Asset Management Company.
+                  House Loan of at least Rs. 20 million with Allied Bank.
+                  Senior Executives of companies whose annual turnover is Rs. 10 million and above in Company Business Account. A minimum of 12 month’s company relationship with the bank is required.
+                  If you fulfill any of the above criteria, please visit your nearest Allied Bank branch with documentary proof to avail Premium Debit Card."
+
+
+  utter_deactivate_my_Visa_Debit_Card:
+    - text: " You can contact Allied Phone Banking at 111-225-225 to deactivate your Visa Debit Card for online shopping."
+
+  utter_Reactivate_my_Visa_Debit_Card:
+    - text: "Please call Allied Phone Banking at 111-225-225 through your registered mobile number to activate your Visa Debit Card for specific time period or till expiry of your VISA Debit card."
+
+  utter_OTP_valid_time:
+    - text: "It is valid for 5 minutes after which you can re-generate OTP by simply clicking on the link given on the payment screen, which will take you back to OTP channel selection screen."
+
+  utter_Receive_OTP_for_all_online_shopping_transactions:
+    - text: "Yes, OTP is mandatory to conduct transaction on all Verified by Visa compliant merchant websites. For non-compliant merchant websites, OTP shall not be sent."
+
+  utter_if_I_do_not_receive_OTP:
+    - text: "Please click on the link to re-generate OTP given at payment screen, which will take you back to OTP medium selection screen. In case your mobile number or email address has changed, please contact your branch to update your records. In case you have shifted your mobile number to another network operator, please type MNP in write message option on your mobile phone and send it to 9225 and 9080 to update your mobile network."
+
+
+  utter_Successful_completion_of_transaction_notification:
+    - text: " Yes, you will receive a confirmation message on the merchant website upon completion of transaction. An alert will also be sent on your registered mobile number and/or email address (if provided in the Bank’s record)."
+
+  utter_charged_for_online_shopping:
+    - text: "Currently, there is no charge for the activation of for online shopping on your ABL Visa Debit Card. Please refer to Schedule of Charges (SOC) for international transactions."
+
+  utter_Maximum_amount_spend_in_a_day_via_debit_card:
+    - text: " Following are per day transaction amount limits for each Allied Visa Debit Card type for online shopping and POS (Point of Sale) purchase:
+              Classic: PKR 100,000
+              Sapphire: PKR 250,000
+              Sapphire 200: PKR 500,000
+              Premium: PKR 1,000,000 "
+
+  utter_requirement_to_conduct_an_online_transaction:
+    - text: "You need below valid information to perform an online transaction on e-commerce merchant.
+             1.	Valid Card Number
+             2.	CVV (Card Verification Value placed on the backside of the VISA Debit Card)
+             3.	Card Expiry Date
+             4.	OTP (for Verified by Visa websites)"
+
+  utter_Validity_and_Activation:
+    - text: "The Card will not become valid or operational until the Cardholder acknowledges receipt of the Card and accepts the Terms and Conditions for Card usage. The Card will then require to be activated by such mode as the Bank may specify. The Card is only valid for the period shown on it and must not be used outside that period or if the Bank has required by notice in writing to the Cardholder that it be returned to the Bank. When the period of validity of a Card expires, it must be destroyed by cutting it in half through the magnetic strip. In order to use Biometric, activation of the Card is a mandatory requirement.
+             For activation of e-Commerce Transaction Facility separate request is to be made by the Cardholder through mode prescribed by the Bank. The Card will be opened for e-Commerce Transaction Facility for limited period (Activation Period). Fresh activation request will be required from the Cardholder after expiry of each Activation Period. Permanent activation is not permitted.
+              Upon receiving your Card, please activate it instantly from any Allied Bank ATM using biometric option or by calling 111-225-225"
+  utter_Cancellation_of_Transactions:
+  - text: "A Transaction cannot be cancelled by the Cardholder after it has been completed. However, the Bank reserves the right to reject or suspend transaction in particular electronic fund transfer (EFT) transaction lacking minimum required information or where mandatory field are not filled in with appropriate details."
+
+  utter_Charges_card:
+  - text: "The Cardholder agrees that charges, fees, duties, levies and other expenses (collectively the “charges”) will be charged by the Bank for the issuance and usage of the Card/Biometric. All charges are non-refundable unless otherwise indicated by the Bank.
+           which type of card charges you want to know
+            1. Debit Card
+            2. Credit Card"
+
+  utter_Account_form:
+   - text: " If you are interested in opening an account? copy paste this link to your browser to open the form link
+   https://forms.gle/FqrLLq4FFnJf8WZs6
+   Fill the form and wait for our response
+   Thank you"
+
+  utter_types_cards:
+    - text: "There are two types of cards
+                             1 Credit Card
+                             2 Debit Card "
+
+  utter_Credit_Card_Charges:
+    - text: "In case of Gold Cards Annual fee waiver shall be applicable on spend of minimum PKR 25,000/- while in case of Platinum Cards Annual fee Waiver will be given on a spend of minimum PKR 50,000/- within a period of three (03) months."
+
+  utter_Allied_Business_Account:
+    - text:  " With Allied Business Account, the Bank offers you ease, flexibility, and a whole range of free benefits specially tailored to match all needs of your growing business. And there is no minimum balance requirement for operating this particular account either. So enjoy unlimited freedom and convenience with numerous free services – all with Allied Business Account!"
+
+  utter_difference_Allied_Asaan_and_Easy_Current_account:
+    - text:  " Allied Asaan Account has been designed in a way to attract those segments of the community that are unprivileged and un-educated which may include freelancers, students, housewives, farmers, laborers, pensioners, etc. All it requires is a valid CNIC/ SNIC and deposit of Rs.100/- to open an Allied Asaan Account.
+       while Allied Easy Current Account is a recently-launched current account tailored to meet banking needs of every individual, requiring No Service Charges on Minimum Balance Requirement."
+
+  utter_joint_account:
+    - text: " sorry currently we are not dealing with joint
+   account"
+
+  utter_How_are_you:
+      - text: " i am good how may i help you"
+
+  utter_Personal_loan_criteria:
+    - text: "Criteria
+
+      If your eligibility meets the following criteria then you are eligible for loan otherwise no loan ypu will get
+      1. Salaried individual whose salary is being credited to Allied account.
+      2. Applicant to be 21 years or more at the time of loan application and 60 years or less at the time of loan maturity
+      You can avail any amount ranging from Rs 25,000 to Rs 2,000,000 based on your eligibility and the Bank’s criteria  "
+
+  utter_details_Personal_loan:
+    - text: "A loan facility that provides you financial assistance whenever you need it.This will help you finance your dreams as well as be your support in difficult times.
+         Features
+
+       1.  Financing limit between PKR 25,000 to PKR 2,000,000
+       2.  Repayment tenure(s) ranging from 12 to 60 months
+       3.  Availability of top-up facility after every 12 months
+       4.  Life insurance coverage"
+
+  utter_loan_policies:
+    - text: "We have three categories
+      1 Personal loan
+      2 Car loan
+      3 Home loan
+      4 Allied Salary loan"
+
+
+
+  utter_documents_for_personal_loan:
+    - text: "Applicant to provide:
+
+             Verified copy of CNIC
+             Verified copy of salary slip
+             Letter from employer (if applicable)
+             Terms and conditions apply."
+
+  utter_condition_loan_approved:
+    - text: "If you meet our criteria and requirement then your loan will be approved "
+
+  utter_Apply_for_personal_loan:
+    - text: "If you are interested to get your loan then please copy paste this URL https://forms.gle/32DBo9h8AJemn5fk7 to your browser and fill the loan application form then
+    You can visit the nearest Allied branch with the required documents for Allied PersonalLoan.
+    Thank you"
+
+  utter_extension_of_loan_tenure:
+    - text: "If you want to increase your loan tenure,you can apply for our loan top-up facility."
+
+
+  utter_Hidden_cost:
+    - text: "No,there are no hidden costs involved.All charges are clearly mentioned in the Schedule of Bank Charges available at all Allied branches.You can also visit www.Allied.com for the Schedule of Bank Charges"
+
+  utter_repay_loan:
+    - text: "You can easily repay your loan in equal monthly installments in periods ranging from 12,24,36,48 or 60 months."
+
+  utter_Applicable_interest_rate:
+    - text: "The interest rate varies according to the category of customer that you fall under,with a maximum of up to 35.99% per annual.For further details,please visit Schedule of Bank Charges (SOBC)-Allied PersonalLoans uploaded on https://www.Allied.com/personalloan.However,for us to guide you better,please call Allied PhoneBanking at 111-111-425."
+
+  utter_Personal_loan_installment:
+    - text: "You can easily pay your loan in equal monthly installments in periods ranging from 12, 24, 36, 48 or 60 months."
+
+  utter_Car_loan_Apply:
+    - text: "If you are a salaried or self-employed business person/professional having a regular,stable and verifiable income stream,you can apply for Allied CarLoan.
+    If you are interested to get your loan then please copy paste this URL https://forms.gle/32DBo9h8AJemn5fk7 to your browser and fill the loan application form then
+        You can visit the nearest Allied branch with the required documents for Allied CarLoan."
+
+  utter_loan_possibility:
+    - text: "Yes,two people can jointly apply for the CarLoan facility as Co-borrowers.Subject to fulfillment of certain criteria the Co-borrower’s income will be clubbed with your income to meet the requirement."
+
+
+  utter_Car_loan_Benefits:
+    - text: "Yes.Based on the fulfillment of certain criteria, existing Allied customers are entitled to certain privileges and benefits.
+                For details please contact Allied PhoneBanking at 111-111-425 or your relevant Allied branch."
+
+  utter_Car_loan_requirements:
+    - text: "Salaried individuals to provide:
+
+             •     Original copy of CNIC along with verified copy
+
+             •     Two recent passport size photographs
+
+             •     Latest original salary slip and personal bank statement for last three months
+
+             Self-employed business persons/professionals to provide:
+
+             •     Original copy of CNIC along with verified copy
+
+             •     Two recent passport size photographs
+
+             •     Bank statement for last 6 months and bank letter confirming details of account
+
+             •?     Proof of occupation / business"
+
+
+  utter_installment_Car_Loan:
+    - text: "For your convenience,a non-checking repayment account will be opened in your name so that you can easily deposit your monthly installment in the same through any Allied branch."
+
+  utter_mini_balance_repayment:
+    - text: "There is no minimum balance requirement for the repayment account.However,to avoid any inconvenience please ensure that sufficient funds are available in the repayment account before the installment due date so that the installment amount can be deducted from the same accordingly."
+
+  utter_partial_Car_Loan:
+    - text: "Yes,you can make partial payment during the tenure.However,certain charges will apply.
+    For details please contact Allied PhoneBanking at 111-111-425 or Click here for detailed Schedule of charges"
+
+  utter_inquire_status_repayment_account:
+    - text: "All Allied CarLoan customers will be enrolled for Allied PhoneBanking through which they will be able to inquire about their repayment account status as well as avail other related facilities."
+
+
+
+  utter_Car_loan_businessman_requirements:
+    - text: "Original copy of CNIC along with verified copy
+             Two recent passport size photographs
+             Bank statement for last 6 months and bank letter confirming details of account
+             Proof of business"
+
+  utter_apply_Allied_Home_Loan:
+    - text: "Any salaried or self-employed business person / professional with a regular,stable and verifiable income stream can apply for Allied HomeLoan.
+    If you are interested to get your loan then please copy paste this URL https://forms.gle/32DBo9h8AJemn5fk7 to your browser and fill the loan application form then
+        You can visit the nearest Allied branch with the required documents for Allied homeLoan."
+
+
+  utter_non_resident_Pakistanis:
+    - text: "Yes,non–resident Pakistanis can apply for Allied HomeLoan with a co-borrower based in Pakistan."
+
+  utter_markup_rate_Allied_Home_Loan:
+    - text: "Allied offers two markup variants
+     1. Floating Rate
+     2. Fixed Rate
+
+    Floating Rate This rate is calculated by adding a base rate with margin.The base rate used for Allied HomeLoan is Karachi Interbank Offered Rate(KIBOR).The margin charged to the customer does not change during the tenure of the loan, only the base rate fluctuates.Monthly instalments are likely to change as KIBOR fluctuates.Instalments only remain constant for the agreed period which may be 12 months,36 months or 60 months depending on the floating rate pricing option chosen.
+
+    Fixed Rate The rate of interest rate does not changes for the entire tenure of the loan regardless of the market conditions.Customer at the onset is aware of the monthly obligations and can plan accordingly.
+
+    Floating rate options
+
+       1 Year Floating –1 year KIBOR+ margin (to be re-priced after 12 months)
+       3 Year Floating –3 year KIBOR + margin (to be re-priced after 36 months)
+       5 Year Floating –3 year KIBOR + margin (to be re-priced after 60 months)
+
+    Fixed rate options
+
+       5 Year Fixed (fixed for the entire tenure of the loan i.e. 5 years)
+       10 Year Fixed (fixed for the entire tenure of the loan i.e. 10 years)
+       15 Year Fixed (fixed for the entire tenure of the loan i.e. 15 years)
+       20 Year Fixed (fixed for the entire tenure of the loan i.e. 20 years)"
+
+  utter_value_property_assessed:
+    - text: "BL has arrangements with PBA approved evaluators on bank’s panel for this purpose.Charges for appraisal apply as per the Schedule of Bank Charges."
+
+  utter_title_property_checked:
+    - text: "The title of property is cleared by legal advisor or advocate on approved panel of Allied.Charges for legal opinion apply as per the Schedule of Bank Charges."
+
+  utter_repaid_before_maturity_date:
+    - text: "Yes, Allied HomeLoan can be settled before the maturity date.However,certain charges as per the Schedule of Bank Charges apply."
+
+  utter_Allied_Salary_Loan:
+    - text: "Salary Falling Short
+             Turn to Allied SalaryPlus to meet all your short-term cash needs.Allied SalaryPlus is an overdraft facility which provides our customers with an assigned limit in their salary account.This facility provides freedom to meet unforeseen expenses which may arise."
+
+  utter_Allied_Salary_Loan_benefits:
+    - text: "Benefits
+               1.  Competitive & flexible interest rate
+               2. Large financing facility
+               3. An advance on a fixed sum over a specified tenure
+               4. Interest charged is linked to the Bank's Prime Lending Rate (PLR)
+               5. Flexible repayment period for up to 4 years, but before retirement
+               6. Insurance cover: Ensures complete peace of mind and security
+               7. No hidden costs
+               8. Processing fee charged on approval only"
+
+
+  utter_eligible_Allied_Salary_Loan:
+    - text: " 1. Open to professionals
+               2. The borrower age should not be less than 25 years and not more than 55 years
+               3. Monthly installment shall not exceed 40% of employee's salary
+               4. Disbursement of salaries or direct check off from employer or undertaking for regular monthly standing order for loan installments
+
+                If you are interested to get your loan then please copy paste this URL https://forms.gle/32DBo9h8AJemn5fk7 to your browser and fill the loan application form then
+                       You can visit the nearest Allied branch with the required documents for Allied homeLoan"
+
+  utter_documents_required_Allied_Salary_Loan:
+    - text:   "1. To avail Allied Salary Loan, please submit the following documents
+               2.  Completed Loan Application form
+               3.  Proof of Identity – Identity Card or Passport
+               4.  Evidence of income from employer, where applicable
+               5.  Salary slips for the last 3 months, where applicable
+               6.  Most recent utility bills – CEB/CWA/MT
+               7.  Bank statements for the last six months"
+
+  utter_Phone_Banking:
+    - text: "Taking convenience in banking to a whole new level, Allied Phone Banking offers you 24/7 convenient and secure services. Carry out a host of transactions, that too on your own time, by simply calling our UAN number at 111-225-225"
+
+
+  utter_Apply_for_card:
+    - text: "Please visit any nearest ABL branch to apply your Card and start enjoying benefits and services that come with it."
+
+
+  utter_Atm:
+    - text: "You get 24 hour, 365 day access to cash from any ATM throughout the country as well as overseas with Allied Cash+Shop Visa Debit Card.
+     You can also deposit cash or cheques at the Cash Deposit Machines installed in various cities and transfer money between your Allied Bank accounts."
+
+
+  utter_Islamic_banking:
+    - text: " please visit these links for islamic banking knowlegde
+
+         Islamic Finance News: www.islamicfinancenews.com
+         State Bank of Pakistan – Islamic Banking: http://www.sbp.org.pk/departments/ibd.htm"
+
+
+  utter_Atm_Locator:
+    - text: " Kindly visit our dashboard of this application we have separate feature for Atm location named as Atm Locator."
+
+
+  utter_Branch_Locator:
+    - text: " Kindly visit our dashboard of this application we have separate feature for Branch location named as Branch Locator."
+
+
+
+  utter_Secure_card_payment:
+    - text: "Very secure indeed, and certainly much more secure than carrying cash. Visa contact less cards use secure chip technology so you can feel totally confident when you’re using it to pay."
+
+  utter_credit_card_limit:
+    - text: " The limit of card is not specific it is depending  on your income for further you can call our UAN number at 111-225-225"
+
+
+  utter_card_validity:
+    - text: "The Card will not become valid or operational until the Cardholder acknowledges receipt of the Card and accepts the Terms and Conditions for Card usage. The Card will then require to be activated by such mode as the Bank may specify. The Card is only valid for the period shown on it and must not be used outside that period or if the Bank has required by notice in writing to the Cardholder that it be returned to the Bank. When the period of validity of a Card expires, it must be destroyed by cutting it in half through the magnetic strip. In order to use Biometric, activation of the Card is a mandatory requirement."
+
+
+  utter_PersonalLoan_Terms_&_Conditions:
+    - text: "  PersonalLoan Terms & Conditions
+           The applicant should provide all the documents as per Allied PersonalLoan policy and should fulfil the criteria
+           mentioned earlier. All applications will be scrutinized as per Allied PersonalLoan policy and eligible/verified
+           applications will be processed further.
+           Processing fee for Allied PersonalLoan is as defined in the Schedule of Bank Charges (depending on the
+           category of customer that you fall under) and will be charged on approval only.
+           5% of the outstanding loan amount plus FED will be charged in case the customer wants to opt for early
+           repayment. Any failure or neglect on part of the customer in making the payment of the purchase price on the
+           dates specified shall constitute a default in payment by the customer. In such event, Allied shall be entitled to
+           terminate the facility and recall the entire amount of finance outstanding then. In case of death, the remaining
+           amount will be covered by the insurance company.
+           The Bank has the right to cancel the facility under this agreement at any time. However, prior to cancellation, a
+           notice to this effect shall be sent to the customer intimating the reason and demanding payment of loan within
+           the period as mentioned in the said notice."
+
+  utter_PersonalLoan_Features:
+    - text: "Features
+            1. Financing limit between PKR 25,000 to PKR 3,000,000
+            2. Repayment tenure(s) ranging from 12 to 60 months
+            3. Availability of top-up facility after every 12 months
+            4. Life insurance coverage"
+
+
+  utter_car_loan_details:
+    - text: "Don't just dream, get your dream car. Allied offers a flexible and hassle-free financing facility that enables you to own your dream car and provides financing up to 85% of the value of your desired car.
+             Allied CarLoan offers you the freedom to choose any vehicle on a fixed mark-up rate facility to suit your personal requirements
+
+              Features
+
+              •      Financing limit between PKR 200,000 to PKR10,000,000.
+              •      Repay within a 7 year time period
+              •      Choose any type of vehicle, new, used, local or imported.
+              •      Receive financing up to 85% of the value of preferred car
+              •      Secured insurance at all times for peace of mind (with tracker facility)
+              •      Multiple Partial payment facility as per your convenience
+              •      Non- Resident Pakistani (NRP) can also avail Allied CarLoan facility
+              •      Our network of over 150 eligible dealers means you have lots of brands and cars to choose from
+              •      Allied has over 1700 branches, you can apply for CarLoan as per your convenience by visiting your nearest branch or through other alternate channels
+              •      24/7 support available through Allied Phone Banking
+              •      Dedicated after sales service."
+
+
+
+  utter_Car_Loan_Features:
+    - text: "Features
+
+             • Financing limit between PKR 200,000 to PKR10,000,000.
+             • Repay within a 7 year time period.
+             • Choose any type of vehicle, new, used, local or imported.
+             • Receive financing up to 85% of the value of preferred car.
+             • Secured insurance at all times for peace of mind (with tracker facility).
+             • Multiple Partial payment facility as per your convenience.
+             • Non- Resident Pakistani (NRP) can also avail Allied CarLoan facility.
+             • Our network of over 150 eligible dealers means you have lots of brands.
+             • Allied has over 1700 branches, you can apply for CarLoan as per your convenience by visiting your nearest branch or through other alternate channels.
+             • 24/7 support available through Allied Phone Banking.
+             • Dedicated after sales service."
+
+
+  utter_Car_loan_criteria:
+    - text: "Criteria
+             Salaried individuals
+
+             • Applicant must be a Pakistani citizen.
+             • Applicant to be 22 years or more at the time of application and 60 years of retirement age whichever is less at the time of  maturity.
+             • Minimum monthly income to be PKR 20,000.
+
+             Pensioner individuals:
+            • Applicant must be a Pakistani citizen.
+            • Applicant maximun age to be 70 at the time of maturity.
+            •     Applicant must have pension account relationship with Allied.
+            •     Minimum monthly income to be PKR 200,000.
+
+
+             Self-employed business persons/professionals
+            • Applicant must be a Pakistani citizen.
+            • Applicant to be 22 years or more at the time of application and 70 years or less at the time of maturity.
+            • Minimum monthly income to be PKR 25,000.
+
+            Non-Resident Pakistani (NRP) individuals:
+            • Applicant must be a Pakistani citizen.
+            • Applicant must be maintaining relationship with Allied Pakistan and/ or Allied international.
+            • Applicant age should be as per the Salaried / Self- Employed segment stated criteria.
+            • Minimum monthly income to be PKR 200,000."
+
+  utter_home_loan_details:
+    - text: "A loan facility that enables you to fulfill your dream of owning a perfect home. Be it purchasing a new one, constructing or renovating your existing home, this facility has multiple options to suit your needs.
+            Key Features
+            • Financing limit between PKR 2,000,000 to PKR 40,000,000.
+            • Flexibility of choosing between fixed and variable mark-up rate.
+            • Repayment tenure ranging from 5 years to 20 years.
+            • Free property insurance at all times ensuring peace of mind."
+
+  utter_home_loan_criteria:
+    - text: "Criteria
+            Salaried individuals
+
+           Applicant can be a Pakistani or non-resident Pakistanis.
+           Applicant to be 25 years or more at the time of loan application and 60 years or less at the time of loan maturity.
+           For existing customers, minimum monthly income to be PKR 100,000.
+           For new to bank customers, minimum monthly income to be PKR 150,000.
+           Permanent employee with a minimum of 5 years experience with confirmed employment status in the current job.
+
+          Non-resident Pakistani must apply with a co-borrower who is a Pakistani resident
+
+          Self-employed business persons/professionals:
+          Applicant must be a Pakistani resident.
+          Applicant to be 30 years or more at the time of loan application and 65 years or less at the time of loan maturity.
+          For existing customers, minimum monthly income to be PKR 150,000.
+          For new to bank customers, minimum monthly income to be PKR 200,000.
+          Minimum 5 years experience in personal business."
+
+  utter_home_loan_requirement:
+    - text: "Documents requirement
+          Salaried individuals to provide:
+           • Original copy of CNIC along with verified copy.
+           • Two recent passport size photographs.
+           • Latest original salary slip and personal bank statement for last three months.
+
+          Self-employed business persons/professionals to provide:
+           • Original copy of CNIC along with verified copy.
+           • Two recent passport size photographs.
+           • Bank statement for last 6 months and bank letter confirming details of account.
+           • Proof of occupation / business.
+                 Terms and conditions apply."
+
+  utter_Thank_you:
+    - text: "Welcome"
+

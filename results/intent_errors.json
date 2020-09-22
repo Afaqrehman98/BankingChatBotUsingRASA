@@ -1,0 +1,82 @@
+[
+  {
+    "text": "what amount i need to open business account",
+    "intent": "account_charges",
+    "intent_prediction": {
+      "name": "minimum_business_account_balance",
+      "confidence": 0.7171503305435181
+    }
+  },
+  {
+    "text": "bad",
+    "intent": "abusive_words",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5239498019218445
+    }
+  },
+  {
+    "text": "what are the features of Allied Visa Premium Debit Card",
+    "intent": "Allied_Visa_Premium_Debit_Card",
+    "intent_prediction": {
+      "name": "Allied_Visa_Premium_Debit_Card_benefits",
+      "confidence": 0.612991452217102
+    }
+  },
+  {
+    "text": "Allied UPI & PayPak Debit Card",
+    "intent": "Allied_UPI_&PayPak_Debit_Card_features_&_benefits",
+    "intent_prediction": {
+      "name": "Allied_UPI_&_PayPak_Debit_Card",
+      "confidence": 0.6203635931015015
+    }
+  },
+  {
+    "text": "Can you tell me about Personal Loan?",
+    "intent": "Personal_loan_borrow",
+    "intent_prediction": {
+      "name": "details_Personal_loan",
+      "confidence": 0.4310080409049988
+    }
+  },
+  {
+    "text": "what are the details of car loan?",
+    "intent": "Car_loan_Apply",
+    "intent_prediction": {
+      "name": "Car_loan_businessman_requirements",
+      "confidence": 0.35297518968582153
+    }
+  },
+  {
+    "text": "what documents to submit for Car loan ?",
+    "intent": "Car_loan_requirements",
+    "intent_prediction": {
+      "name": "Car_loan_businessman_requirements",
+      "confidence": 0.5259525775909424
+    }
+  },
+  {
+    "text": "What do we need to submit for Car loan ?",
+    "intent": "Car_loan_requirements",
+    "intent_prediction": {
+      "name": "Car_loan_businessman_requirements",
+      "confidence": 0.6411603093147278
+    }
+  },
+  {
+    "text": "what are the details of Car loan ?",
+    "intent": "Car_loan_requirements",
+    "intent_prediction": {
+      "name": "Car_loan_Apply",
+      "confidence": 0.35819169878959656
+    }
+  },
+  {
+    "text": "what are the details of Car loan?",
+    "intent": "Car_loan_businessman_requirements",
+    "intent_prediction": {
+      "name": "Car_loan_Apply",
+      "confidence": 0.35819169878959656
+    }
+  }
+]
